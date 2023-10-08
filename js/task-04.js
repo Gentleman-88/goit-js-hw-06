@@ -5,10 +5,8 @@ const valueCount = document.querySelector("#value");
 let counterValue = 0;
 
 function decrement() {
-    if (counterValue > 0) {
     counterValue -= 1;
     updateCounter();
-    }
 };
 
 function increment() {
